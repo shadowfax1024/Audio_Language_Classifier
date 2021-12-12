@@ -16,8 +16,8 @@ import tensorflow as tf
 # Global vars
 RANDOM_SEED = 1337
 SAMPLE_RATE = 32000
-#SIGNAL_LENGTH = 1.0 # seconds
-SPEC_SHAPE = (128, 625)#height X width
+SIGNAL_LENGTH = 4.0 # seconds
+SPEC_SHAPE = (129,501)#height X width
 FMIN = 500
 FMAX = 12500
 #MAX_AUDIO_FILES = 15000
